@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    color: cyan;
+}
+.line{
+    height:6px;
+    width:150px;
+    margin:8px auto;
+    background-color:rgb(22, 190, 30);   
+}
+#APPS{
+    width:100%;
+    background-color: brown;
+    font-size:50px;
+
+}
+#GAMES{
+    width:100%;
+    background-color: rgb(54, 42, 165);
+    font-size:50px;
+
+}
+img{
+    height:300px;
+    transition:transform .2s ;
+}
+img:hover{
+    transform:scale(0.9);
+}
+#CHATBOT{
+    width:100%;
+    background-color: rgb(165, 42, 48);
+    font-size:50px;
+
+}
